@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>The beauty of Korean</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css" />
+		
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<header id="header">
+				<h1>
+					<img src="./images/logo.png" alt="" width="50px" height="50px" style="float: left;">
+					Graduation Design Project
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#design">Design</a></li>
+						<li><a href="#coding">Coding</a></li>
+                        <li><a href="#display">Display</a></li>
+						<li><a href="#publi">Publication</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>The Beauty of Korean</h2> 
+						<br>
+						<h3>한국의 미인</h3>
+					</header>
+					<p>The Beauty of Korean is my bachelor's graduation design project that was studied for one year. </p>
+					<footer>
+						<a href="#design" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+		<!-- design -->
+			<section id="design" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Design</h2>
+					</header>
+					<p>문헌 이미지를 바탕으로 얼굴 마스크와 메이크업의 특징을 추출하여 참여자가 쉽게 접근할 수 있도록 <b>고구려시대부터 조선시대까지 총 6시대의 화장특징</b>이 드러난 캐릭터와 일러스트 디자인을 진행하였다. 그리고 각 시대의 인물이 입었던 의상과 장식은 문헌 시각자료를 참고하여 각 시대의 특징이 더 잘 드러나도록 디자인하였다. 이 캐릭터들은 얼굴인식단계에서 사용자가 얼굴을 비춘 후 하나의 시대가 도출되었을 때 사용되므로 생동감 있는 움직임으로 몰입감 있게 체험할 수 있게 하였다.</p>
+					<button class="far fa-lightbulb icons"><span style="display: block; font-size: 16px; margin-top: 13px;">ideaSketch</span></button>
+					<button class="far fa-meh-blank icons"><span style="display: block; font-size: 16px; margin-top: 13px;">maskMakeup</span></button>
+					<button class="fas fa-paint-brush icons"><span style="display: block; font-size: 16px; margin-top: 13px;">characters</span></button>
+				</div>
+				<div class="popup">
+					<div class="title">
+						<strong>idea&sketch</strong>
+						<button class="far fa-times-circle close"><span class="blind">close</span></button>
+					</div>
+					<div class="imgGroup" style="background-color: #fff;">
+					
+					</div>
+				</div>
+				<!-- js 동적형성할 것임 -->
+				<!-- <div class="popup-bg"></div> -->
+				<a href="#coding" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- coding-->
+			<section id="coding" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Coding</h2>
+					</header>
+					<p>사용자가 모니터 앞에서 체험하는 얼굴인식은 페이스북 얼굴 인식 ‘Deep Face’의 원리와 같도록 하였다. 네이버의 Clova를 이용해 사람의 얼굴을 올렸을 때 6개의 인식 포인트를 자동으로 파악하고, 좌표를 토대로 해당 인물과 미리 저장된 6개의 시대별 얼굴 마스크 중 가장 일치도가 높은 마스크를 AI가 판별한다. 이때 6개의 포인트는 동공 2개, 코 끝, 그리고 입술 양옆과 중심이다. 이와 같은 방법으로 각도가 조금 틀어져도 얼굴 유사도가 높은 마스크를 도출해 낼 수 있다. 얼굴 인식을 통해 하나의 시대가 도출되면 Clova와 통신시킨 Processing에서 도출된 결과 값을 받아 벽면에 부착된 족자 위에 프로젝션 매핑 방식을 통해 세부 정보를 전달한다.</p>
+				</div>
+				<div class="imgContent">
+					<img src="../beauty/images/coding/codingPage.png" alt="">
+					<img src="../beauty/images/coding/ident_analysis.png" alt="">
+				</div>
+				<a href="#display" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- display -->
+			<section id="display" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Graduation Display</h2>
+						<p>Display description is right here. display description is right here. display description is right here.</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/display1.JPG" class="image fit"><img src="images/display1.JPG" title="The Anonymous Red" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/display2.JPG" class="image fit"><img src="images/display2.JPG" title="Airchitecture II" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/display3.JPG" class="image fit"><img src="images/display3.JPG" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/display4.JPG" class="image fit"><img src="images/display4.JPG" title="Carry on" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/display5.JPG" class="image fit"><img src="images/display5.JPG" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/display6.JPG" class="image fit"><img src="images/display6.JPG" title="Bent IX" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/display7.JPG" class="image fit"><img src="images/display7.JPG" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/display8.JPG" class="image fit"><img src="images/display8.JPG" title="Bent IX" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/display9.JPG" class="image fit"><img src="images/display9.JPG" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/display10.JPG" class="image fit"><img src="images/display10.JPG" title="Bent IX" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/display11.JPG" class="image fit"><img src="images/display11.JPG" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/display12.JPG" class="image fit"><img src="images/display12.JPG" title="Bent IX" alt="" /></a>
+							</article>
+						</div>
+						<a href="#publi" class="button style2 down anchored">Next</a>
+				</div>
+			</section>
+
+			<!-- publication -->
+			<section id="publi" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Publication</h2>
+					</header>
+					<p>학사 디자인 졸업작품<b>(얼굴인식 기술을 활용한 한국 역사 뷰티문화 체험 인터랙티브 인스톨레이션)</b>주제로 한국디자인학회가 개최하는 2018 Fall DSUS(2018 가을 대학생 디자인 학술발표대회)에서 장려상을 수상하였다.  </p>
+					<button class="fas fa-plus icons" onclick="getHeight()"><span class="blind">more</span></button>
+					<!-- + button 눌렀을 때 추가 내용 -->
+					<div class="moreBox blind">
+						<div class="col">
+							<img src="../beauty/images/poster.png" alt="논문포스터">
+						</div>
+						<!-- <div class="col">
+							<h3>An interactive Installation of Korean History Beauty Culture by Using Face Detection <br>얼굴인식 기술을 활용한 한국 역사 뷰티문화 체험 인터랙티브 인스톨레이션</h3>
+							<p>본 인스톨레이션은 화장의 역사를 체험을 통해 경험하면서, 한국의 정체성과 문화의식을 다시금 일깨워, 지속적이고 장기적인 'K-beauty'의 발전을 이끌어내는 것을 목적으로 한다. 본 인스톨레이션은 모니터와 웹캠을 통해 사용자의 얼굴을 인식한 후 벽면에 부착된 5개의 족자 위에 프로젝션 매핑 방식으로 세부 정보를 볼 수 있게 구성하였다. 세부 정보는 6개 시대 중 자신의 얼굴과 가장 유사도가 높은 마스크에 해당되는 시대의 화장 문화를 스토리 기반 애니메이션으로 제공하여 흥미와 몰입감을 높였다. 또한 다른 시대의 화장법을 자신의 얼굴에 입혀보는 경험을 제공하여 한국 전반의 고유 화장을 접해볼 수 있게 하였다.</p>
+
+						</div> -->
+					</div>
+					
+				</div>
+				
+				<a href="#" class="button style2 up anchored">Before</a>
+			</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; 2021</li><li>Design: Song JeongEun<a href="#"></a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+			
+
+			</script>
+	</body>
+</html>
