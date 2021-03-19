@@ -9,8 +9,23 @@
 <style>
     body {
         padding: 40px;
+        text-align: center;
     }
 
+    img{
+        width: 100%; 
+    }
+    .half{
+        width: 50%; height: 1220px;
+        float: left;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    .right{
+        overflow: scroll;
+    }
+
+    @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
     /* Animation */
 
     @keyframes fadeInUp {
@@ -51,22 +66,19 @@
         animation-name: fadeInUp;
         -webkit-animation-name: fadeInUp;
     }
+    
 </style>
 <body>
     <div class="animated animatedFadeInUp fadeInUp">
-        <h1>Kintex Web & Mobile</h1>
+        <h1>Kintex Web & Mobile Design</h1>
+        <p>킨텍스 웹과 모바일을 반응형웹 코딩 화면 설계입니다.</p>
+        <div class="left half">
+            <img src="../images/portfolio/mockup_kintexWeb.jpg" alt="">
+        </div>
+        <div class="right half">
+            <img src="../images/portfolio/mockup_kintexMobile.jpg" alt="">
+        </div>
     </div>
-    <div class="animated animatedFadeInUp fadeInUp">
-        <h2>Design Mockup Web</h2>
-        <p>Know what you want to listen to? Just search and hit play.</p>
-    </div>
-    <div class="animated animatedFadeInUp fadeInUp">
-        <h2>Browse</h2>
-        <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
-    </div>
-    <div class="animated animatedFadeInUp fadeInUp">
-        <h2>Discover</h2>
-        <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
-    </div>
+   
 </body>
 </html>
